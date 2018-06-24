@@ -81,7 +81,6 @@ namespace Calculator {
                     CurrentValue = operand1;
                     break;
                 case Operator.None:
-                    MessageBox.Show("OP set to none (should never see this)");
                     break;
             }
         }
