@@ -210,7 +210,7 @@
             this.EqualsButton.Size = new System.Drawing.Size(30, 64);
             this.EqualsButton.TabIndex = 17;
             this.EqualsButton.TabStop = false;
-            this.EqualsButton.Text = "&=";
+            this.EqualsButton.Text = "=";
             this.EqualsButton.UseVisualStyleBackColor = true;
             this.EqualsButton.Click += new System.EventHandler(this.equalsButton_Click);
             // 
