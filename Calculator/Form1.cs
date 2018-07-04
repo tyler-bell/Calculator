@@ -34,12 +34,12 @@ namespace Calculator {
                         errorFlag = 0;                                              //reset flag
                         break;
                     default:                                                    //if no error
-                        displayBox.Text = calculon.CurrentValue.ToString("G25");    //otherwise display value up to 25 values
+                        displayBox.Text = calculon.CurrentValue.ToString("G23");    //otherwise display value up to 23 values
                         break;                                                      
                 }
             } else {                                                    //if newNumberFlag is false
-                if (display.Length > 25) {                                  //if display is greater than 25
-                   display = display.Substring(0, 25);                      //trim to 25 characters
+                if (display.Length > 23) {                                  //if display is greater than 23
+                   display = display.Substring(0, 23);                      //trim to 23 characters
                 }
                 displayBox.Text = display;                              //set displayBox.Text to display
             }
