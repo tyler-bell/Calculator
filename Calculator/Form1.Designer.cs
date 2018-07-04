@@ -370,7 +370,10 @@
             this.Controls.Add(this.ClearButton);
             this.Controls.Add(this.btnCalculate);
             this.ForeColor = System.Drawing.Color.Red;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.KeyPreview = true;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Calculator";
             this.Text = "Calculator";
             this.ResumeLayout(false);
